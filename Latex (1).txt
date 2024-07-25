@@ -1,0 +1,152 @@
+\documentclass{beamer}
+\usepackage{graphicx}
+\setbeamersize{text margin left=5mm,text margin right=5mm}
+\usepackage{ragged2e}\justifying
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+\title{Menu Management System}
+\usepackage{xcolor}
+\date{}
+\institute{Team-8}
+
+\begin{document}
+\begin{frame}[Regular]
+    \centering
+    \vspace{0.5cm}
+        \LARGE \textbf{\textcolor{violet}{Shri Vishnu Engineering College For Women}} \\
+        \vspace{0.3cm} 
+        \LARGE {\textcolor{violet}{Menu Management System}}
+    \vspace{0.1cm}
+    
+    \begin{table}
+        \centering
+        \begin{tabular}{l l l }
+            { \small \textbf{Regd.No}} & {\textbf{\small  Name}} & {\textbf{\small Job Profile}} \\
+            \small 22B01A42B7 & \small V. Meenakshi & \small Backend Developer\\ 
+           \small 22B01A4266 & \small  M. Bhavana  & \small GIT Developer \\
+            \small 22B01A4267 & \small M. Bhavya Sai Sri & \small LaTeX \\
+            \small 22B01A4274 & \small N. Likhitha & \small Frontend Developer \\
+            \small 22B01A4275 & \small P. Gayathri & \small Backend Developer\\
+            \small 22B01A4287 & \small P. Anuhya & \small Frontend Developer\\ 
+        \end{tabular}
+    \end{table}
+    \vspace{0.8cm}
+\end{frame}
+
+\begin{frame}[t]{Introduction}
+\setbeamerfont{Introduction}{ series=\bfseries, shape=\slshape}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item The primary objective of our project is to create a user-friendly system that allows hostel students to select their desired dishes from a pre-defined menu. 
+        \vspace{0.5cm}
+        \item  Our project aims to streamline the process of selecting meals in a hostel setting, ensuring that students have the opportunity to choose dishes that cater to their preferences.
+        \vspace{0.5cm}
+        \item The system will provide administrators with insights into the most popular dishes chosen by students, enabling them to make informed decisions about the menu for the next day.
+        \vspace{0.5cm}
+        
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Data Flow Diagram}
+\vspace*{-2mm}
+  \begin{figure}
+    \centering
+    \includegraphics[height =0.6\linewidth]{dataflowdiagram.jpg} 
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{First Page of our interface}
+    \textbf{Login page} - Admin and Students can login with their respective userID's and passwords.
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{loginpage.jpg}
+    \end{center}
+    
+\end{frame}
+
+
+\begin{frame}{Student pages}
+    \textbf{Week Day Selection page} - Students have to select the the day of the week.
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{weekdayselection.png}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Dishes Submission Page}
+    \textbf{Students} - Students have to choose their desired dish and submit
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{menumanagement.png}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Admin page}
+    \textbf{Admin} - Checks the majority dishes submitted by students after selecting the day
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{adminpagee.png}
+    \end{center}
+    
+\end{frame}
+\begin{frame}{Database}
+    The menu selected by each student is displayed in the database as follows:
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{Database.png}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}{Database}
+    The login credentials of the chef and students are as follows:
+    \begin{center}
+        \includegraphics[width=0.8\textwidth,height=30\textheight,keepaspectratio]{Logininformation.png}
+    \end{center}
+    
+\end{frame}
+
+\begin{frame}[t]{Uniqueness in this project}
+\vspace{1.2cm}
+    \begin{itemize}
+        \item Enhanced Convenience for Users and Administrator.
+        \vspace{0.4cm}
+    \item Customised menu.
+    \vspace{0.4cm}
+    \item Mitigated Food Wastage.
+    \vspace{0.4cm}
+    \item Efficient Resource Allocation.
+    \vspace{0.4cm}
+    \item Data-Driven Decision Making.
+    \end{itemize}
+    \begin{center}
+        \includegraphics[width=0.5\textwidth,height=0.5\textheight,keepaspectratio]{}
+    \end{center} 
+\end{frame}
+
+\begin{frame}[t]{Conclusion}
+\vspace{2 cm}
+    \begin{itemize}
+    Our website makes it easy for everyone to work together in planning the menu. This means that students can choose the meals they like and need, making sure most of the student's happy. It's like everyone gets a say in what's for dinner, which makes everyone feel included and valued.
+
+        \vspace{0.8cm}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[t]{Bibliography}
+\vspace{0.8cm}
+    \begin{itemize}
+        \item \textbf{Python} - Primary Programming Language
+        \vspace{0.4cm}
+        \item \textbf{tkinter} - https://docs.python.org/3/library/tkinter.html
+        \vspace{0.4cm}
+        \item \textbf{ttk} - https://docs.python.org/3/library/tkinter.ttk.html
+        \vspace{0.4cm}
+        \item \textbf{SQL} - 
+        https://www.w3schools.com/sql/
+        \vspace{0.4cm}
+        \item \textbf{Link to our github repository: }https://gitlab.com/bhavana.matta2004/menumanage.git
+        
+        \vspace{0.8cm}
+    \end{itemize}
+\end{frame}
+
+\end{document}
